@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:     CRT
-version:        1.0
-author:         Anthony
+theme name:     CRT Grid
+version:        0.1
+author:         Mark Hanny
 license:        creative commons CC-BY-NC-SA
-based on:       "Carbon" by Eric Hettervik
+based on:       "CRT" by Anthony and "Carbon" by Eric Hettervik
 -->
 <theme>
    <formatVersion>4</formatVersion>

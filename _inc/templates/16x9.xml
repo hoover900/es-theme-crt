@@ -12,7 +12,7 @@
          <pos>0 0</pos>
          <size>1 1</size>
          <tile>true</tile>
-         <path>./../images/background.png</path>
+         <path>./../images/grid_background.png</path>
       </image>
    </view>
 
@@ -33,12 +33,12 @@
    <view name="basic,detailed,video">
       <image name="logo">
          <origin>0.5 0</origin>
-         <pos>0.5 0.0694444444444444</pos>
+         <pos>0.78 0.0694444444444444</pos>
          <maxSize>0.234375 0.0555555555555556</maxSize>
       </image>
       <textlist name="gamelist">
          <pos>0.1875 0.180555555555556</pos>
-         <size>0.625 0.708333333333333</size>
+         <size>0.625 0.70833333333333</size>
          <selectorColor>1c1c1caa</selectorColor>
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
@@ -59,127 +59,115 @@
          <pos>1 1</pos>
       </datetime>
       <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_players,md_releasedate,md_genre">
-         <color>555555</color>
+         <color>bba358</color>
          <fontPath>./../fonts/Cabin-Bold-TTF.ttf</fontPath>
          <fontSize>0.0222222222222222</fontSize>
       </text>
 
       <rating name="md_rating">
-         <pos>0.2015625 0.5888888888888889</pos>
+         <pos>0.65 0.5888888888888889</pos>
          <size>0.2515625 0.0277777777777778</size>
          <filledPath>./../images/star_filled.svg</filledPath>
          <unfilledPath>./../images/star_empty.svg</unfilledPath>
       </rating>
-      <image name="md_hidden">
+      <!-- <image name="md_hidden">
          <origin>0 0</origin>
-         <pos>0.390625 0.5888888888888889</pos>
+         <pos>0.75 0.5888888888888889</pos>
          <maxSize>0.02109375 0.0277777777777778</maxSize>
          <path>./../images/hidden.svg</path>
          <color>bba35880</color>
       </image>
       <image name="md_kidgame">
          <origin>0 0</origin>
-         <pos>0.4171875 0.5888888888888889</pos>
+         <pos>0.85 0.5888888888888889</pos>
          <maxSize>0.0125 0.0277777777777778</maxSize>
          <path>./../images/kid.svg</path>
          <color>bba35880</color>
-      </image>
-      <image name="md_favorite">
+      </image> -->
+      <!-- <image name="md_favorite">
          <origin>0 0</origin>
-         <pos>0.43515625 0.5888888888888889</pos>
+         <pos>0.80 0.5888888888888889</pos>
          <maxSize>0.01796875 0.0277777777777778</maxSize>
          <path>./../images/favorite.svg</path>
          <color>bba35880</color>
-      </image>
+      </image> -->
 
       <image name="md_lbl_lastplayed_slash" extra="true">
          <origin>0 0</origin>
-         <pos>0.2015625 0.6444444444444444</pos>
+         <pos>0.65 0.6444444444444444</pos>
          <maxSize>0.00703125 0.0277777777777778</maxSize>
          <path>./../images/metadata.svg</path>
       </image>
       <text name="md_lbl_lastplayed">
-         <pos>0.21015625 0.6444444444444444</pos>
+         <pos>0.66 0.6444444444444444</pos>
          <size>0.07109375 0.0277777777777778</size>
       </text>
       <datetime name="md_lastplayed">
-         <pos>0.28125 0.6444444444444444</pos>
+         <pos>0.73 0.6444444444444444</pos>
          <size>0.1171875 0.0277777777777778</size>
       </datetime>
 
       <image name="md_lbl_players_slash" extra="true">
          <origin>0 0</origin>
-         <pos>0.2015625 0.6861111111111111</pos>
+         <pos>0.65 0.6861111111111111</pos>
          <maxSize>0.00703125 0.0277777777777778</maxSize>
          <path>./../images/metadata.svg</path>
       </image>
       <text name="md_lbl_players">
-         <pos>0.21015625 0.6861111111111111</pos>
+         <pos>0.66 0.6861111111111111</pos>
          <size>0.04765625 0.0277777777777778</size>
       </text>
       <text name="md_players">
-         <pos>0.2578125 0.6861111111111111</pos>
+         <pos>0.71 0.6861111111111111</pos>
          <size>0.028125 0.0277777777777778</size>
       </text>
 
       <image name="md_releasedate_slash" extra="true">
          <origin>0 0</origin>
-         <pos>0.2859375 0.6861111111111111</pos>
+         <pos>0.75 0.6861111111111111</pos>
          <maxSize>0.00703125 0.0277777777777778</maxSize>
          <path>./../images/metadata.svg</path>
       </image>
       <datetime name="md_releasedate">
-         <pos>0.29453125 0.6861111111111111</pos>
+         <pos>0.76 0.6861111111111111</pos>
          <size>0.07578125 0.0277777777777778</size>
       </datetime>
 
       <image name="md_genre_slash" extra="true">
          <origin>0 0</origin>
-         <pos>0.3703125 0.6861111111111111</pos>
+         <pos>0.85 0.6861111111111111</pos>
          <maxSize>0.00703125 0.0277777777777778</maxSize>
          <path>./../images/metadata.svg</path>
       </image>
       <text name="md_genre">
-         <pos>0.37890625 0.6861111111111111</pos>
+         <pos>0.86 0.6861111111111111</pos>
          <size>0.07421875 0.0277777777777778</size>
       </text>
 
       <text name="md_description">
-         <pos>0.2015625 0.7416666666666667</pos>
+         <pos>0.65 0.7416666666666667</pos>
          <size>0.2515625 0.1472222222222222</size>
          <color>999999</color>
          <fontSize>0.025</fontSize>
       </text>
 
       <textlist name="gamelist">
-         <pos>0.546875 0.180555555555556</pos>
-         <size>0.29375 0.708333333333333</size>
+         <pos>0.63 0.180555555555556</pos>
+         <size>0.29375 0.38</size>
          <alignment>left</alignment>
          <horizontalMargin>0.00625</horizontalMargin>
       </textlist>
    </view>
 
    <view name="detailed">
-      <image name="crt-bezel" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.2671875 0.3638888888888889</maxSize>
-         <path>./../images/crt-bezel.svg</path>
-      </image>
       <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.25 0.3333333333333333</maxSize>
-      </image>
-      <image name="crt-screen" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.25 0.3333333333333333</maxSize>
-         <path>./../images/crt-screen.svg</path>
+         <origin>0.0 0.0</origin>
+         <pos>0.09 0.09</pos>
+         <maxSize>0.85 0.85</maxSize>
       </image>
    </view>
 
-   <feature supported="video">
+   <!-- <feature supported="video">
       <view name="video">
          <image name="crt-bezel" extra="true">
             <origin>0.5 0.5</origin>
@@ -239,6 +227,6 @@
             <zIndex>80</zIndex>
          </video>
       </view>
-   </feature>
-   
+   </feature> -->
+
 </theme>
