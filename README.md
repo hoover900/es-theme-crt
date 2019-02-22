@@ -1,4 +1,4 @@
-# CRT Grid, an EmulationStation
+# CRT Grid, an EmulationStation Theme
 A simple theme for Recalbox. Support for the video view is pending with recalbox, but in therory it should work as is.  Originally based on the Carbon theme by Anthony Caccese; and then thorn apart so I could learn the theming system for ES.
 
 ---
